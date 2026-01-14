@@ -1,0 +1,7 @@
+#!/bin/sh 
+
+wallpapers=044.png
+wpp=$HOME/Wallpapers/$wallpapers
+
+# sleep 0.3
+swww img "$wpp" --transition-type grow --transition-duration 0.8

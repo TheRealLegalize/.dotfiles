@@ -1,0 +1,13 @@
+appimagelauncher
+ayugram-desktop-bin
+ayugram-desktop-bin-debug
+btop-git
+cmatrix-git
+elyprismlauncher-bin
+glide-browser-bin
+pipes-rs
+portproton
+pyinstaller
+python-pytelegrambotapi
+snapd
+unimatrix-git

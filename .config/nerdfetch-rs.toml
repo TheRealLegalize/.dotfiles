@@ -1,0 +1,11 @@
+[theme]
+ascii_art = '''
+    ___
+   (.. \
+   (<> |
+  //  \ \
+ ( |  | /|
+_/\ __)/_)
+\/-____\/'''
+icon_color = "bright_magenta"
+info_color = "green"

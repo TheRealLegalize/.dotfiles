@@ -1,0 +1,15 @@
+#!/bin/sh
+
+choose_wallpaper() { ~/.bin/binaries/loom; }
+
+wallpaper=$(choose_wallpaper)
+[ -z "$wallpaper" ] && exit 0
+
+wallpapers="$HOME/Wallpapers/$wallpaper"
+wpp="wallpapers=$wallpaper"
+lock="    path = $HOME\/Wallpapers\/$wallpaper"
+
+swww img "$wallpapers" --transition-type grow --transition-duration 0.8
+sed -i "3s/.*/$wpp/" "$HOME"/.bin/lWpp
+echo "$lock"
+sed -i "16s#.*#$lock#" "$HOME"/.config/hypr/hyprlock.conf

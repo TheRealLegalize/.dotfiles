@@ -1,0 +1,4 @@
+#!/bin/bash
+geom=$(slurp -d -b 15151540 -c d1d7e8ff -w 2 -f "%x %y %w %h") || exit 1
+read -r x y w h <<< "$geom"
+hyprctl dispatch exec "[float; size $w $h; move $x $y] $1"

@@ -1,0 +1,76 @@
+configuration {
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 16";
+    /* Мы убираем лишние элементы, чтобы фокус был на картинке */
+}
+
+@theme "catppuccin"
+
+window {
+    height: 600px;
+    width: 600px;
+    border: 3px;
+    border-color: @border-col;
+    // border-radius: 20px;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+listview {
+    columns: 1;
+    lines: 1; 
+    cycle: true;
+    dynamic: false;
+    layout: vertical;
+    background-color: transparent;
+    fixed-height: true;
+    border: none;
+}
+
+element {
+    orientation: vertical;
+    padding: 0px;
+    background-color: transparent;
+    spacing: 0px;
+}
+
+element-icon {
+    size: 500px;
+    // horizontal-align: 0.5;
+    background-color: transparent;
+    border: 0px;
+}
+
+element-text {
+    horizontal-align: 0.5;
+    background-color: transparent;
+    vertical-align: 0.1;
+    font: "JetBrainsMono Nerd Font 16";
+    color: @fg-col;
+}
+
+element selected {
+    background-color: transparent;
+    border-radius: 15px;
+    text-color: @fg-col2;
+}
+
+/* Компактный инпутбар внизу */
+
+inputbar {
+    padding: 0px;
+    margin: 0px;
+    background-color: @bg-col;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    padding: 6px;
+    text-color: @bg-col;
+    border-radius: 3px;
+    margin: 0px 0px 0px 0px;
+}

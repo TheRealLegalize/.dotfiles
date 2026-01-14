@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grim -g "$(slurp -d -b 6c708640 -c d1d7e8ff -w 0)" - | tesseract stdin stdout -l rus+eng | wl-copy

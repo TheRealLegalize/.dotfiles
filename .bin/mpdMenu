@@ -1,0 +1,19 @@
+#!/bin/bash
+
+choice=$(printf " Play\n Pause\n Stop\n󰓏 Select Playlist" | rofi -dmenu -p "")
+
+case "$choice" in
+    " Play")
+        mpc play
+        ;;
+    " Pause")
+        mpc pause 
+        ;;
+    " Stop")
+       mpc stop
+        ;;
+    "󰓏 Select Playlist")
+       mpc lsplaylist | rofi -dmenu -p "" | mpc load
+        ;;
+    *)
+esac

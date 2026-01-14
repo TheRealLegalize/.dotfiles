@@ -1,0 +1,66 @@
+window {
+    margin: 0px;
+    border: 2px solid #a6e3a1; /* Green Accent */
+    background-color: #1e1e2e; /* Base */
+    border-radius: 15px;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+}
+
+#input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #181825; /* Mantle */
+    color: #a6e3a1;
+    font-weight: bold;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: #1e1e2e;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#entry {
+    padding: 8px 10px;
+    margin: 2px 0px;
+    border-radius: 8px;
+    transition: all 0.1s;
+}
+
+#entry:selected {
+    background-color: #313244; /* Surface0 */
+    border: 1px solid #a6e3a1;
+    font-weight: bold;
+}
+
+/* --- МАГИЯ С ИКОНКАМИ --- */
+
+/* Скрываем иконки по умолчанию (ширина 0, чтобы текст был слева) */
+#img {
+    margin-right: 0px;
+    background-color: transparent;
+    opacity: 0; 
+    min-width: 0px;
+    min-height: 0px;
+    /* Используем scale, чтобы схлопнуть место */
+    transform: scale(0);
+}
+
+/* Показываем иконку ТОЛЬКО у выбранного элемента */
+#entry:selected #img {
+    margin-right: 12px;
+    opacity: 1;
+    min-width: 24px;
+    min-height: 24px;
+    transform: scale(1);
+}
+
+#text:selected {
+    color: #a6e3a1;
+}

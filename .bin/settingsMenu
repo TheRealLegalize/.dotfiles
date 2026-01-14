@@ -1,0 +1,16 @@
+#!/bin/sh 
+
+choice=$(printf " Back\n Hyprland\n󱔓 Waybar" | rofi -dmenu -p "")
+
+case "$choice" in
+    " Back")
+        sh "$HOME"/.bin/mainMenu
+        ;;
+    " Hyprland")
+        sh "$HOME"/.bin/settingsMenuHyprland
+        ;;
+    "󱔓 Waybar")
+        sh "$HOME"/.bin/settingsMenuWaybar
+        ;;
+    *)
+esac

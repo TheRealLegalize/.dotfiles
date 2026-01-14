@@ -1,0 +1,73 @@
+[global]
+
+    font = JetBrainsMono Nerd Font 14
+    format = "<b>%s</b>\n%b"
+    sort = no
+    indicate_hidden = yes
+    enable_recursive_icon_lookup = true
+
+
+    width = (80, 500)
+    height = (60, 300)
+
+    origin = top-right
+    offset = (5,20)
+
+    transparency = 0   
+    padding = 12
+    horizontal_padding = 12
+    text_icon_padding = 12
+    frame_width = 2
+    separator_height = 1
+    corner_radius = 0
+
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#cdd6f430"
+
+    # Другие настройки для красоты
+    separator_color = "#7496d1"
+    alignment = center
+    vertical_alignment = center
+    show_age_threshold = 60
+    word_wrap = yes
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = true
+    show_indicators = yes
+
+    enable_icons = true
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 64
+
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/xdg-open
+    timeout = 2
+    idle_threshold = 120
+    monitor = 0
+    follow = none
+    sticky_history = yes
+    history_length = 20
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    startup_notification = false
+    force_xinerama = false
+
+# Правила для urgency (критичность)
+#[urgency_low]
+#    background = "#1e1e2eCC"
+#    foreground = "#cdd6f4"
+#    frame_color = "#a6e3a1" 
+#
+#[urgency_normal]
+#    background = "#1e1e2eCC"
+#    foreground = "#cdd6f4"
+#    frame_color = "#fab387" 
+#
+#[urgency_critical]
+#    background = "#1e1e2eCC"
+#    foreground = "#cdd6f4"
+#    frame_color = "#f38ba8" 

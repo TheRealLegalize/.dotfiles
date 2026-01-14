@@ -1,0 +1,12 @@
+[ExtractDialog]
+2560x1440 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Documents/,$HOME/Downloads/,$HOME/Images/Wallpapers/
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+MenuBar=Enabled
+StatusBar=Disabled
+splitterSizes=210,105

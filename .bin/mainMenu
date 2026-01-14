@@ -1,0 +1,22 @@
+#!/bin/sh 
+
+choice=$(printf " Package Manager\n Settings\n Media Player\n󰋩 Randow Wallpaper\n󰨇 Process Monitor" | rofi -dmenu -p "")
+
+case "$choice" in
+    " Package Manager")
+        sh "$HOME"/.bin/pkgMenu
+        ;;
+    " Settings")
+        sh "$HOME"/.bin/settingsMenu 
+        ;;
+    " Media Player")
+        sh "$HOME"/.bin/mpdMenu
+        ;;
+    "󰋩 Randow Wallpaper")
+       sh "$HOME"/.bin/randWpp
+        ;;
+    "󰨇 Process Monitor")
+       ghostty --title="floatterm" -e btop
+        ;;
+    *)
+esac
