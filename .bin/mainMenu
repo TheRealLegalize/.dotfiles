@@ -16,7 +16,7 @@ case "$choice" in
        sh "$HOME"/.bin/randWpp
         ;;
     "󰨇 Process Monitor")
-       ghostty --title="floatterm" -e btop
+       kitty --title="floatterm" -e btop
         ;;
     *)
 esac

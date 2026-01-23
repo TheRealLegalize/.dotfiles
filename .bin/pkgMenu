@@ -7,19 +7,19 @@ case "$choice" in
         sh "$HOME"/.bin/mainMenu
         ;;
     "󰏕 Install")
-        ghostty --title="floatterm" -e sh "$HOME"/.bin/pkgInstall
+        kitty --title="floatterm" -e sh "$HOME"/.bin/pkgInstall
         ;;
     "󰏕 AUR Install")
-        ghostty --title="floatterm" -e sh "$HOME"/.bin/pkgInstallAur
+        kitty --title="floatterm" -e sh "$HOME"/.bin/pkgInstallAur
         ;;
     "󰏔 Uninstall")
-        ghostty --title="floatterm" -e sh "$HOME"/.bin/pkgRemove 
+        kitty --title="floatterm" -e sh "$HOME"/.bin/pkgRemove 
         ;;
     "󰏓 Purge")
-        ghostty --title="floatterm" -e sh "$HOME"/.bin/pkgPurge 
+        kitty --title="floatterm" -e sh "$HOME"/.bin/pkgPurge 
         ;;
     "󰚰 Update")
-        ghostty --title="floatterm" -e sh "$HOME"/.bin/pkgUpdate
+        kitty --title="floatterm" -e sh "$HOME"/.bin/pkgUpdate
         ;;
     *)
 esac

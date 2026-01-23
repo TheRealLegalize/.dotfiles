@@ -2,6 +2,8 @@
 export EDITOR=$( [[ -n $SSH_CONNECTION ]] && echo 'vim' || echo 'nvim' )
 export LS_COLORS="di=38;2;166;227;161:ln=38;2;137;180;250:ex=38;2;148;226;213"
 
+# [ -z "$TMUX" ] && [ -f ~/.cache/wal/sequences ] && cat ~/.cache/wal/sequences
+
 # --- ИНИЦИАЛИЗАЦИЯ ZINIT ---
 source "$HOME/.zinit"
 # source <(fzf --zsh)

@@ -37,8 +37,6 @@ vim.keymap.set('n', '<leader>cca', 'ggVG"+y', {silent = true, desc = 'Copy all'}
 
 
 
-
-
 -- local modes = { "n", "i", "v", "x", "c" }
 -- local arrows = { "<Up>", "<Down>", "<Left>", "<Right>" }
 --

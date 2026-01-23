@@ -7,25 +7,25 @@ case "$choice" in
         sh "$HOME"/.bin/settingsMenu
         ;;
     " Autostart")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/autostart.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/autostart.conf
         ;;
     "󰌌 Keybinds")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/keybinds.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/keybinds.conf
         ;;
     " Environment")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/env.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/env.conf
         ;;
     "󰍽 Input")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/input.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/input.conf
         ;;
     "󰍄 Look & Feel")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/looknfeel.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/looknfeel.conf
         ;;
     "󰖯 Windowrules")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/windowrules.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/windowrules.conf
         ;;
     " Vars")
-        ghostty -e nvim "$HOME"/.config/hypr/conf/vars.conf
+        kitty -e nvim "$HOME"/.config/hypr/conf/vars.conf
         ;;
     *)
 esac

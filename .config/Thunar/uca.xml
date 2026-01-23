@@ -50,7 +50,7 @@
 	<name>Open Terminal Here</name>
 	<submenu></submenu>
 	<unique-id>1754824934761503-1</unique-id>
-	<command>ghostty --working-directory=%f --title=&quot;floatterm&quot; </command>
+	<command>kitty --directory=&quot;%f&quot; --title=&quot;floatterm&quot;</command>
 	<description>Opens terminal here suka</description>
 	<range></range>
 	<patterns>*</patterns>

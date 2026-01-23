@@ -28,9 +28,10 @@ if vim.fn.isdirectory(functions_path) == 1 then
         end
     end
 end
--- require("functions/relnum")
+require("functions/relnum")
 -- require("functions/toggleoil")
 
 
 require("lazy").setup("plugins")
+vim.cmd.colorscheme "catppuccin"
 
