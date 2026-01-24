@@ -1,7 +1,6 @@
-@import "Colors/Mocha.css";
+@import "./Colors/Mocha.css";
 
-/* Global styles */
-* {
+* { 
   border: none;
   font-family: "JetBrainsMono Nerd Font";
   font-size: 14pt;
@@ -10,87 +9,51 @@
 }
 
 window#waybar {
-  background: transparent;
+  background: @base;
   border-radius: 0;
   color: @text;
 }
 
 tooltip {
   border: 1px solid @surface1;
-  border-radius: 8px;
   background: @surface0;
 }
 
-/* Left */
+
+/* Left Modules */
 
 #workspaces {
-    background-color: @base;
-    margin: 4px 8px;
-    padding: 2px 4px;
-    border-radius: 16px;
-    border: 1px solid @surface1;
 }
 
 #workspaces button {
-    padding: 0px 10px;
-    margin: 2px 2px;
-    color: @base;
-    background-color: transparent;
-    border-radius: 12px;
-    transition: all 0.3s ease;
+  color: @text;
 }
 
 #workspaces button.active {
-    color: @base;
-    background: linear-gradient(45deg, @green, @teal);
-    box-shadow: 0 0 10px @green;
-    min-width: 40px; 
+  color: @green;
+  border-radius: 0;
+  border-bottom: 2pt solid @green
 }
 
-#workspaces button:hover {
-    color: @text;
-    background-color: @surface2;
-    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
-}
-
-/* Center */
+/* Center Modules */
 
 #cpu {
-  padding: 0 5px 0 10px;
+  padding-right: 5pt;
   color: @red;
-  background: @base;
-  border-radius: 20px 0px 0px 20px;
-  border: 1px solid @surface1;
-  border-right: none;
 }
 
 #clock {
-  padding: 0px 5px;
-  color: @blue;
-  background: @base;
-  border-top: 1px solid @surface1;
-  border-bottom: 1px solid @surface1;
+  padding-right: 5pt;
+  padding-left: 5pt;
+  color: @sapphire;
 }
 
 #memory {
-  padding: 0 10px 0 5px;
+  padding-left: 5pt;
   color: @green;
-  background: @base;
-  border-radius: 0 20px 20px 0;
-  border: 1px solid @surface1;
-  border-left: none;
 }
 
-/* Right */
-
-#custom-colorpicker {
-  padding: 0 8pt 0 10pt;
-  color: @teal;
-  background: @base;
-  border-radius: 20px 0 0 20px;
-  border: 1px solid @surface1;
-  border-right: none;
-}
+/* Right Modules */
 
 #network {
   color: @blue;
@@ -101,11 +64,11 @@ tooltip {
 }
 
 #pulseaudio {
-  color: @green;
+  color: @maroon;
 }
 
 #battery {
-  color: @blue;
+  color: @sky;
 }
 
 #language {
@@ -113,23 +76,12 @@ tooltip {
 }
 
 #network, #backlight, #pulseaudio, #battery, #language, #tray {
-  padding: 0 10px;
-  background: @base;
-  border-top: 1px solid @surface1;
-  border-bottom: 1px solid @surface1;
+  padding-left: 5pt;
+  padding-right: 5pt;
 }
 
 #custom-powermenu {
-  padding: 0 15px 0 5px;
+  padding-left: 5pt;
+  padding-right: 10pt;
   color: @red;
-  background: @base;
-  border-radius: 0 20px 20px 0;
-  border: 1px solid @surface1;
-  border-left: none;
-}
-
-#tray menu {
-  background: @surface0;
-  color: @text;
-  border: 1px solid @surface1;
 }

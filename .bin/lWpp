@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-wallpapers=031.png
+wallpapers=035.png
 wpp=$HOME/Wallpapers/$wallpapers
 
 # sleep 0.3
