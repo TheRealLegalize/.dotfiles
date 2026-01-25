@@ -1,8 +1,0 @@
-2026/01/25-15:00:49.860 38de Creating DB /home/user/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf since it was missing.
-2026/01/25-15:00:49.865 38de Reusing MANIFEST /home/user/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf/MANIFEST-000001
-2026/01/25-15:00:53.545 38df Level-0 table #5: started
-2026/01/25-15:00:53.564 38df Level-0 table #5: 4338173 bytes OK
-2026/01/25-15:00:53.566 38df Delete type=0 #3
-2026/01/25-15:01:50.118 38de Level-0 table #7: started
-2026/01/25-15:01:50.172 38de Level-0 table #7: 7362374 bytes OK
-2026/01/25-15:01:50.174 38de Delete type=0 #4
