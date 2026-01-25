@@ -21,7 +21,6 @@ local functions_path = vim.fn.stdpath("config") .. "/lua/functions"
 if vim.fn.isdirectory(functions_path) == 1 then
     local files = vim.fn.readdir(functions_path)
     for _, file in ipairs(files) do
-        -- Грузим только .lua файлы
         if file:match("%.lua$") then
             local module = "functions." .. file:gsub("%.lua$", "")
             require(module)

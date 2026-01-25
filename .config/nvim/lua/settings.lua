@@ -12,36 +12,7 @@ vim.wo.relativenumber = false
 vim.opt.clipboard = "unnamedplus"
 
 vim.keymap.set('n', '<leader>cca', 'ggVG"+y', {silent = true, desc = 'Copy all'})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- local modes = { "n", "i", "v", "x", "c" }
--- local arrows = { "<Up>", "<Down>", "<Left>", "<Right>" }
---
--- for _, mode in ipairs(modes) do
---   for _, arrow in ipairs(arrows) do
---     vim.keymap.set(mode, arrow, "<nop>", { noremap = true, silent = true })
---   end
--- end
+vim.keymap.set("n", "<Leader>w", ":w<CR>", { desc = "Save file" })
+vim.keymap.set("n", "<Leader>q", ":q<CR>", { desc = "Quit" })
+vim.keymap.set("n", "<Leader>x", ":wq<CR>", { desc = "Save and quit" })
+vim.opt.clipboard = "unnamedplus"

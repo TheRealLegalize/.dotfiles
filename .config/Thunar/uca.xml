@@ -72,4 +72,15 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon>clipboard</icon>
+	<name>Copy file content</name>
+	<submenu></submenu>
+	<unique-id>1769345208957528-1</unique-id>
+	<command>cat %n | wl-copy</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
 </actions>

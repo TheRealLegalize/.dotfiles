@@ -2,7 +2,7 @@
 
 fzf_args=(
   --multi
-  --preview 'yay -Sii {1}'
+  --preview 'paru -Sii {1}'
   --preview-label='alt-p: toggle description, alt-j/k: scroll, tab: multi-select, F11: maximize'
   --preview-label-pos='bottom'
   --preview-window 'up:40%:wrap'
@@ -17,9 +17,9 @@ fzf_args=(
   --layout reverse
 )
 
-pkg_names=$(yay -Slqa | fzf "${fzf_args[@]}")
+pkg_names=$(paru -Slqa | fzf "${fzf_args[@]}")
 
 if [[ -n "$pkg_names" ]]; then
-  echo "$pkg_names" | tr '\n' ' ' | xargs yay --noconfirm -S 
+  echo "$pkg_names" | tr '\n' ' ' | xargs paru --noconfirm -S 
   sh "$HOME"/.bin/done
 fi
