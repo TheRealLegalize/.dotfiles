@@ -9,3 +9,4 @@
 .config/yay/
 .config/xarchiver/
 .config/systemd/
+.config/hypr/conf/sysdbot.conf

@@ -21,12 +21,18 @@
       // "4": "四",
       // "5": "五",
       // "6": "六",
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
+      // "1": "1",
+      // "2": "2",
+      // "3": "3",
+      // "4": "4",
+      // "5": "5",
+      // "6": "6",
+      "1": "",
+      "2": "󰈹",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
       "default": "?"
     },
     "persistent-workspaces": {
@@ -42,8 +48,9 @@
   },
   "clock": {
     "format": "󰥔 {:%H:%M}",
-    "tooltip-format": "{:%Y-%m-%d}",
-    "on-click": "gsimplecal",
+    "format-alt": " {:%Y-%m-%d}",
+    "on-click-right": "gsimplecal",
+    "tooltip": false,
     "interval": 60
   },
   "memory": {
@@ -61,14 +68,14 @@
   "network": {
     "format-wifi": "{icon} {signalStrength}%",
     "format-linked": "󰒃",
-    "format-icons": ["󰣴", "󰣶", "󰣸", "󰣺"],
+    "format-icons": ["󰣾", "󰣴", "󰣶", "󰣸", "󰣺"],
     "format-disconnected": "󰣼", 
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "interval": 1
   },
   "backlight": {
-    "format": "{icon} {percent}%",
-    "format-icons": ["󰃚", "󰃛", "󰃠"],
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃚", "󰃛", "󰃠 "],
     "tooltip": false,
     "tooltip-format": "{percent}%"
   },
@@ -76,7 +83,7 @@
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
-      "default": [ "", "" ]
+      "default": [ "", " " ]
     },
     "tooltip-format": "{volume}%",
     "tooltip": false,
