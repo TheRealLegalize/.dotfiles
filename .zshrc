@@ -23,12 +23,12 @@ eval "$(zoxide init zsh)"
 
 # --- ALIASES ---
 alias n="nvim"
-alias sn="sudo nvim"
+alias sn="doasedit"
 alias zrc="nvim ~/.zshrc"
 alias zr="source ~/.zshrc"
-alias install="sudo pacman -Sy"
-alias uninstall="sudo pacman -Rnsu"
-alias reflect="sudo reflector --verbose --latest 100 --age 24 --sort rate --save /etc/pacman.d/mirrorlist"
+alias install="doas pacman -Sy"
+alias uninstall="doas pacman -Rnsu"
+alias reflect="doas reflector --verbose --latest 100 --age 24 --sort rate --save /etc/pacman.d/mirrorlist"
 alias ls="eza --tree --level=1 --icons=always --no-time --no-permissions --no-user -s type"
 alias cat="bat --paging=never"
 alias cd="z"
@@ -41,6 +41,7 @@ alias toPng="~/.bin/toPng"
 alias venc='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
 alias s="stow ."
 alias t='tmux attach -t 0 || tmux new -s 0'
+alias uni="unimatrix -s 95 -c red -a"
 
 # --- HISTORY ---
 HISTSIZE=50000

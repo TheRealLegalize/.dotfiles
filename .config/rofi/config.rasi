@@ -13,7 +13,7 @@ configuration{
     transparency: true;
 }
 
-@theme "catppuccin"
+@theme "Colors/catppuccin"
 
 element-text, element-icon, mode-switcher {
     background-color: inherit;

@@ -34,3 +34,4 @@ require("functions/relnum")
 require("lazy").setup("plugins")
 vim.cmd.colorscheme "catppuccin"
 
+-- vim.cmd.colorscheme("oxocarbon")  -- применяем базовую тему

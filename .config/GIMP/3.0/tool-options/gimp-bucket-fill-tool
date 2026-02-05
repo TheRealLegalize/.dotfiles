@@ -1,0 +1,11 @@
+# GIMP gimp-bucket-fill-tool options
+
+(foreground
+    (color "R'G'B'A double" 32 "\0\0\0\140\273\271\351\77\0\0\0\100\333\332\352\77\0\0\0\0\237\236\356\77\0\0\0\0\0\0\360\77" 0))
+(background
+    (color "R'G'B'A double" 32 "\0\0\0\140\62\61\341\77\0\0\0\200\227\226\346\77\0\0\0\300\137\137\357\77\0\0\0\0\0\0\360\77" 0))
+(pattern "Pine")
+(brush-size 51)
+(brush-hardness 0.5)
+
+# end of gimp-bucket-fill-tool options

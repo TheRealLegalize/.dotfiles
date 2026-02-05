@@ -1,0 +1,348 @@
+{"level":30,"time":"2026-01-31T19:34:11.367Z","msg":"app ready"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"starting session-desktop version 1.17.7"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"Libsession Commit Hash: libsession-util v1.5.8-nogit"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"Libsession NodeJS Version/Hash: 0.6.7/unknown"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"Setup Complete with crowdinLocale: en"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"appLocale is en-US"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"crowdin locale is en"}
+{"level":30,"time":"2026-01-31T19:34:11.368Z","msg":"key/initialize: Generating new encryption key, since we did not find it on disk"}
+{"level":30,"time":"2026-01-31T19:34:11.369Z","msg":"config/set: Saving user config to disk"}
+{"level":30,"time":"2026-01-31T19:34:11.369Z","msg":"config/set: Saved user config to disk"}
+{"level":30,"time":"2026-01-31T19:34:11.369Z","msg":"showing main window"}
+{"level":30,"time":"2026-01-31T19:34:11.417Z","msg":"migrateSchemaVersion: Migrating from schema_version 0 to user_version 0"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":"updateSchema:"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":" Current user_version: 0"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":" Most recent db schema: 11"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":" SQLite version: 3.46.1"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":" SQLCipher version: 4.6.1 community"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":" (deprecated) schema_version: 0"}
+{"level":30,"time":"2026-01-31T19:34:11.420Z","msg":"updateToSchemaVersion1: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.422Z","msg":"updateToSchemaVersion1: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.422Z","msg":"updateToSchemaVersion2: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.424Z","msg":"updateToSchemaVersion2: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.424Z","msg":"updateToSchemaVersion3: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.425Z","msg":"updateToSchemaVersion3: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.425Z","msg":"updateToSchemaVersion4: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.426Z","msg":"updateToSchemaVersion4: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.426Z","msg":"updateToSchemaVersion6: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.428Z","msg":"updateToSchemaVersion6: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.428Z","msg":"updateToSchemaVersion7: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.430Z","msg":"updateToSchemaVersion7: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.430Z","msg":"updateToSchemaVersion8: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.432Z","msg":"updateToSchemaVersion8: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.432Z","msg":"updateToSchemaVersion9: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.434Z","msg":"updateToSchemaVersion9: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.434Z","msg":"updateToSchemaVersion10: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.436Z","msg":"updateToSchemaVersion10: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.436Z","msg":"updateToSchemaVersion11: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.440Z","msg":"updateToSchemaVersion11: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.441Z","msg":"updateSessionSchema: Current loki schema version: 0; Most recent schema version: 52;"}
+{"level":30,"time":"2026-01-31T19:34:11.441Z","msg":"updateToSessionSchemaVersion1: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.448Z","msg":"updateToSessionSchemaVersion1: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.448Z","msg":"updateToSessionSchemaVersion2: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.449Z","msg":"updateToSessionSchemaVersion2: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.650Z","msg":"updateToSessionSchemaVersion3: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.652Z","msg":"updateToSessionSchemaVersion3: success!"}
+{"level":30,"time":"2026-01-31T19:34:11.852Z","msg":"updateToSessionSchemaVersion4: starting..."}
+{"level":30,"time":"2026-01-31T19:34:11.854Z","msg":"updateToSessionSchemaVersion4: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.055Z","msg":"updateToSessionSchemaVersion5: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.058Z","msg":"updateToSessionSchemaVersion5: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.058Z","msg":"updateToSessionSchemaVersion6: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.059Z","msg":"updateToSessionSchemaVersion6: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.059Z","msg":"updateToSessionSchemaVersion7: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.060Z","msg":"updateToSessionSchemaVersion7: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.060Z","msg":"updateToSessionSchemaVersion8: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.061Z","msg":"updateToSessionSchemaVersion8: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.061Z","msg":"updateToSessionSchemaVersion9: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.063Z","msg":"updateToSessionSchemaVersion9: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.063Z","msg":"updateToSessionSchemaVersion10: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.064Z","msg":"updateToSessionSchemaVersion10: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.064Z","msg":"updateToSessionSchemaVersion11: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.065Z","msg":"updateToSessionSchemaVersion11: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.065Z","msg":"updateToSessionSchemaVersion12: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.066Z","msg":"updateToSessionSchemaVersion12: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.066Z","msg":"updateToSessionSchemaVersion13: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.067Z","msg":"updateToSessionSchemaVersion13: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.067Z","msg":"updateToSessionSchemaVersion14: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.069Z","msg":"updateToSessionSchemaVersion14: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.069Z","msg":"updateToSessionSchemaVersion15: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.070Z","msg":"updateToSessionSchemaVersion15: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.070Z","msg":"updateToSessionSchemaVersion16: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.072Z","msg":"updateToSessionSchemaVersion16: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.073Z","msg":"updateToSessionSchemaVersion17: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.074Z","msg":"updateToSessionSchemaVersion17: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.074Z","msg":"updateToSessionSchemaVersion18: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.076Z","msg":"updateToSessionSchemaVersion18: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.076Z","msg":"updateToSessionSchemaVersion19: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.078Z","msg":"updateToSessionSchemaVersion19: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.078Z","msg":"updateToSessionSchemaVersion20: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.078Z","msg":"updateToSessionSchemaVersion20: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.078Z","msg":"updateToSessionSchemaVersion21: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.079Z","msg":"updateToSessionSchemaVersion21: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.079Z","msg":"updateToSessionSchemaVersion22: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.083Z","msg":"updateToSessionSchemaVersion22: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.083Z","msg":"updateToSessionSchemaVersion23: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.085Z","msg":"updateToSessionSchemaVersion23: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.085Z","msg":"updateToSessionSchemaVersion24: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.094Z","msg":"updateToSessionSchemaVersion24: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.095Z","msg":"updateToSessionSchemaVersion25: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.098Z","msg":"updateToSessionSchemaVersion25: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.098Z","msg":"updateToSessionSchemaVersion26: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.099Z","msg":"updateToSessionSchemaVersion26: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.100Z","msg":"updateToSessionSchemaVersion27: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.101Z","msg":"Count of messages to be migrated:  {\"COUNT(*)\":0}"}
+{"level":30,"time":"2026-01-31T19:34:12.101Z","msg":"... done"}
+{"level":30,"time":"2026-01-31T19:34:12.103Z","msg":"updateToSessionSchemaVersion27: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.103Z","msg":"updateToSessionSchemaVersion28: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.104Z","msg":"updateToSessionSchemaVersion28: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.104Z","msg":"updateToSessionSchemaVersion29: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.106Z","msg":"updateToSessionSchemaVersion29: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.106Z","msg":"updateToSessionSchemaVersion30: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.115Z","msg":"updateToSessionSchemaVersion30: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.115Z","msg":"updateToSessionSchemaVersion31: starting..."}
+{"level":50,"time":"2026-01-31T19:34:12.116Z","msg":"failed to create initial wrapper. Might just not have a logged in user yet?  privateEd25519 was empty. Considering no users are logged in Error: privateEd25519 was empty. Considering no users are logged in\n    at [REDACTED]/ts/node/migration/sessionMigrations.js:919:15\n    at sqliteTransaction ([REDACTED]/node_modules/@signalapp/better-sqlite3/lib/methods/transaction.js:65:24)\n    at updateToSessionSchemaVersion31 ([REDACTED]/ts/node/migration/sessionMigrations.js:1049:5)\n    at updateSessionSchema ([REDACTED]/ts/node/migration/sessionMigrations.js:1521:11)\n    at async updateSchema ([REDACTED]/ts/node/migration/signalMigrations.js:523:3)\n    at async Object.initializeSql ([REDACTED]/ts/node/sql.js:131:5)\n    at async showMainWindow ([REDACTED]/ts/mains/main_node.js:663:3)\n    at async App.<anonymous> ([REDACTED]/ts/mains/main_node.js:626:5) {}"}
+{"level":30,"time":"2026-01-31T19:34:12.117Z","msg":"updateToSessionSchemaVersion32: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.119Z","msg":"updateToSessionSchemaVersion32: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.119Z","msg":"updateToSessionSchemaVersion33: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.121Z","msg":"updateToSessionSchemaVersion34: starting..."}
+{"level":50,"time":"2026-01-31T19:34:12.122Z","msg":"Failed to migrate to disappearing messages v2. Might just not have a logged in user yet?  privateEd25519 was empty. Considering no users are logged in Error: privateEd25519 was empty. Considering no users are logged in\n    at [REDACTED]/ts/node/migration/sessionMigrations.js:1119:15\n    at sqliteTransaction ([REDACTED]/node_modules/@signalapp/better-sqlite3/lib/methods/transaction.js:65:24)\n    at updateToSessionSchemaVersion34 ([REDACTED]/ts/node/migration/sessionMigrations.js:1206:5)\n    at updateSessionSchema ([REDACTED]/ts/node/migration/sessionMigrations.js:1521:11)\n    at async updateSchema ([REDACTED]/ts/node/migration/signalMigrations.js:523:3)\n    at async Object.initializeSql ([REDACTED]/ts/node/sql.js:131:5)\n    at async showMainWindow ([REDACTED]/ts/mains/main_node.js:663:3)\n    at async App.<anonymous> ([REDACTED]/ts/mains/main_node.js:626:5) {}"}
+{"level":30,"time":"2026-01-31T19:34:12.124Z","msg":"updateToSessionSchemaVersion34: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.124Z","msg":"updateToSessionSchemaVersion35: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.125Z","msg":"updateToSessionSchemaVersion35: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.125Z","msg":"updateToSessionSchemaVersion36: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.127Z","msg":"updateToSessionSchemaVersion36: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.127Z","msg":"updateToSessionSchemaVersion37: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.128Z","msg":"updateToSessionSchemaVersion37: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.128Z","msg":"updateToSessionSchemaVersion38: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.130Z","msg":"updateToSessionSchemaVersion38: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.130Z","msg":"updateToSessionSchemaVersion39: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.131Z","msg":"updateToSessionSchemaVersion39: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.131Z","msg":"updateToSessionSchemaVersion40: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.133Z","msg":"updateToSessionSchemaVersion40: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.133Z","msg":"updateToSessionSchemaVersion41: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.134Z","msg":"updateToSessionSchemaVersion41: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.134Z","msg":"updateToSessionSchemaVersion42: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.134Z","msg":"convoCount: 0"}
+{"level":30,"time":"2026-01-31T19:34:12.134Z","msg":"showOnboardingAccountJustCreated before: undefined"}
+{"level":30,"time":"2026-01-31T19:34:12.134Z","msg":"showOnboardingAccountJustCreated after  [object Undefined]"}
+{"level":30,"time":"2026-01-31T19:34:12.135Z","msg":"updateToSessionSchemaVersion42: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.136Z","msg":"updateToSessionSchemaVersion43: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.138Z","msg":"updateToSessionSchemaVersion43: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.138Z","msg":"updateToSessionSchemaVersion44: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.140Z","msg":"updateToSessionSchemaVersion44: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.140Z","msg":"updateToSessionSchemaVersion45: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.142Z","msg":"updateToSessionSchemaVersion45: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.142Z","msg":"updateToSessionSchemaVersion46: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.145Z","msg":"updateToSessionSchemaVersion46: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.145Z","msg":"updateToSessionSchemaVersion47: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.147Z","msg":"updateToSessionSchemaVersion47: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.147Z","msg":"updateToSessionSchemaVersion48: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.148Z","msg":"updateToSessionSchemaVersion48: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.149Z","msg":"updateToSessionSchemaVersion49: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.150Z","msg":"updateToSessionSchemaVersion49: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.150Z","msg":"updateToSessionSchemaVersion50: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.152Z","msg":"updateToSessionSchemaVersion50: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.152Z","msg":"updateToSessionSchemaVersion51: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.158Z","msg":"updateToSessionSchemaVersion51: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.158Z","msg":"updateToSessionSchemaVersion52: starting..."}
+{"level":30,"time":"2026-01-31T19:34:12.160Z","msg":"updateToSessionSchemaVersion52: success!"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"attachment_downloads count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"conversations count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"encryptionKeyPairsForClosedGroupV2 count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"guardNodes count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"identityKeys count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"items count 1"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"lastHashes count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"loki_schema count 52"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"messages count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.162Z","msg":"messages_fts count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"messages_fts_config count 1"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"messages_fts_content count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"messages_fts_data count 2"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"messages_fts_docsize count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"messages_fts_idx count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"nodesForPubkey count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"openGroupRoomsV2 count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"seenMessages count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"sqlite_sequence count 1"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"sqlite_stat1 count 2"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"sqlite_stat4 count 0"}
+{"level":30,"time":"2026-01-31T19:34:12.163Z","msg":"Ensure attachments directory exists"}
+{"level":30,"time":"2026-01-31T19:34:12.165Z","msg":"Location reset needed"}
+{"level":30,"time":"2026-01-31T19:34:12.165Z","msg":"Initializing BrowserWindow config: {\"show\":true,\"minWidth\":880,\"minHeight\":600,\"backgroundColor\":\"#1B1B1B\",\"webPreferences\":{\"nodeIntegration\":true,\"enableRemoteModule\":true,\"nodeIntegrationInWorker\":true,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"[REDACTED]/images/session/session_icon.png\",\"maximized\":false,\"autoHideMenuBar\":false,\"width\":880,\"height\":820}"}
+{"level":30,"time":"2026-01-31T19:34:12.195Z","msg":"spellcheck: userLocales: en-US,en,en-US"}
+{"level":30,"time":"2026-01-31T19:34:12.195Z","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2026-01-31T19:34:12.195Z","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2026-01-31T19:34:12.195Z","msg":"spellcheck: setting languages to:  [\"en-US\",\"en\",\"en-US\"]"}
+{"level":30,"time":"2026-01-31T19:34:12.785Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"width\":1276,\"height\":1396,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:34:12.785Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:12.785Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:14.113Z","msg":"removeKnownAttachments: About to iterate through 0 messages"}
+{"level":30,"time":"2026-01-31T19:34:14.114Z","msg":"removeKnownAttachments: Done processing 0 messages"}
+{"level":30,"time":"2026-01-31T19:34:14.114Z","msg":"removeKnownAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2026-01-31T19:34:14.114Z","msg":"removeKnownAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2026-01-31T19:34:14.114Z","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2026-01-31T19:34:14.117Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"width\":1260,\"height\":1380,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:34:14.117Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:14.117Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:14.992Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"width\":1348,\"height\":952,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:34:14.992Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:14.992Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:16.030Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"width\":1304,\"height\":798,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:34:16.031Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:16.031Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:16.910Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"width\":1326,\"height\":760,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:34:16.910Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:16.910Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:34:25.146Z","msg":"config/set: Saving user config to disk"}
+{"level":30,"time":"2026-01-31T19:34:25.147Z","msg":"config/set: Saved user config to disk"}
+{"level":30,"time":"2026-01-31T19:34:25.221Z","msg":"removeKnownAttachments: About to iterate through 0 messages"}
+{"level":30,"time":"2026-01-31T19:34:25.221Z","msg":"removeKnownAttachments: Done processing 0 messages"}
+{"level":30,"time":"2026-01-31T19:34:25.221Z","msg":"removeKnownAttachments: About to iterate through 1 conversations"}
+{"level":30,"time":"2026-01-31T19:34:25.221Z","msg":"removeKnownAttachments: Done processing 1 conversations"}
+{"level":30,"time":"2026-01-31T19:34:25.221Z","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2026-01-31T19:35:26.190Z","msg":"[updater] isReadyForUpdates false"}
+{"level":30,"time":"2026-01-31T19:35:26.190Z","msg":"[updater] auto-update: starting checks..."}
+{"level":30,"time":"2026-01-31T19:37:26.192Z","msg":"[updater] checkForUpdates canAutoUpdate true"}
+{"level":30,"time":"2026-01-31T19:37:26.192Z","msg":"[updater] checkForUpdates isUpdating false"}
+{"level":30,"time":"2026-01-31T19:37:26.192Z","msg":"[updater] checkForUpdates updateVersionFromFsFromRenderer 1.17.7 releaseChannelFromFsFromRenderer stable allowPrerelease false allowDownload false"}
+{"level":30,"time":"2026-01-31T19:37:26.192Z","msg":"[updater] checkForUpdates isMoreRecent false"}
+{"level":30,"time":"2026-01-31T19:37:26.192Z","msg":"[updater] File server has no update so we are not looking for an update from github current:1.17.7 fromFileServer:1.17.7"}
+{"level":30,"time":"2026-01-31T19:39:49.621Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1541,\"height\":942,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:39:49.621Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:39:49.621Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:39:50.477Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1602,\"height\":867,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:39:50.477Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:39:50.477Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:39:52.618Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1531,\"height\":868,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:39:52.618Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:39:52.618Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:41:04.009Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":2556,\"height\":1396,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:41:04.009Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:41:04.009Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:41:45.498Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T19:41:45.499Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2026-01-31T19:41:45.510Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2026-01-31T19:41:45.511Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T19:41:45.511Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2026-01-31T19:42:40.694Z","msg":"app ready"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"starting session-desktop version 1.17.7"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"Libsession Commit Hash: libsession-util v1.5.8-nogit"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"Libsession NodeJS Version/Hash: 0.6.7/unknown"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"Setup Complete with crowdinLocale: en"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"appLocale is en-US"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"crowdin locale is en"}
+{"level":30,"time":"2026-01-31T19:42:40.695Z","msg":"showing main window"}
+{"level":30,"time":"2026-01-31T19:42:40.714Z","msg":"updateSchema:"}
+{"level":30,"time":"2026-01-31T19:42:40.714Z","msg":" Current user_version: 11"}
+{"level":30,"time":"2026-01-31T19:42:40.714Z","msg":" Most recent db schema: 11"}
+{"level":30,"time":"2026-01-31T19:42:40.714Z","msg":" SQLite version: 3.46.1"}
+{"level":30,"time":"2026-01-31T19:42:40.714Z","msg":" SQLCipher version: 4.6.1 community"}
+{"level":30,"time":"2026-01-31T19:42:40.715Z","msg":" (deprecated) schema_version: 240"}
+{"level":30,"time":"2026-01-31T19:42:40.715Z","msg":"updateSessionSchema: Current loki schema version: 52; Most recent schema version: 52;"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"attachment_downloads count 0"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"conversations count 5"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"encryptionKeyPairsForClosedGroupV2 count 0"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"guardNodes count 2"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"identityKeys count 0"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"items count 33"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"lastHashes count 50"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"loki_schema count 52"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages count 8"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages_fts count 35"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages_fts_config count 1"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages_fts_content count 35"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages_fts_data count 3"}
+{"level":30,"time":"2026-01-31T19:42:40.721Z","msg":"messages_fts_docsize count 35"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"messages_fts_idx count 1"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"nodesForPubkey count 3"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"openGroupRoomsV2 count 0"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"seenMessages count 32"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"sqlite_sequence count 2"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"sqlite_stat1 count 32"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"sqlite_stat4 count 0"}
+{"level":30,"time":"2026-01-31T19:42:40.722Z","msg":"Ensure attachments directory exists"}
+{"level":30,"time":"2026-01-31T19:42:40.724Z","msg":"Initializing BrowserWindow config: {\"show\":true,\"minWidth\":880,\"minHeight\":600,\"backgroundColor\":\"#1B1B1B\",\"webPreferences\":{\"nodeIntegration\":true,\"enableRemoteModule\":true,\"nodeIntegrationInWorker\":true,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"[REDACTED]/images/session/session_icon.png\",\"maximized\":true,\"autoHideMenuBar\":true,\"width\":2556,\"height\":1396,\"x\":0,\"y\":0}"}
+{"level":30,"time":"2026-01-31T19:42:40.767Z","msg":"spellcheck: userLocales: en-US,en,en-US"}
+{"level":30,"time":"2026-01-31T19:42:40.767Z","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2026-01-31T19:42:40.767Z","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2026-01-31T19:42:40.767Z","msg":"spellcheck: setting languages to:  [\"en-US\",\"en\",\"en-US\"]"}
+{"level":30,"time":"2026-01-31T19:42:41.341Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":2556,\"height\":1396,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T19:42:41.341Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:42:41.341Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T19:42:42.650Z","msg":"removeKnownAttachments: About to iterate through 8 messages"}
+{"level":30,"time":"2026-01-31T19:42:42.651Z","msg":"removeKnownAttachments: Done processing 8 messages"}
+{"level":30,"time":"2026-01-31T19:42:42.651Z","msg":"removeKnownAttachments: About to iterate through 5 conversations"}
+{"level":30,"time":"2026-01-31T19:42:42.651Z","msg":"removeKnownAttachments: Done processing 5 conversations"}
+{"level":30,"time":"2026-01-31T19:42:42.653Z","msg":"deleteAll: deleted 4 files"}
+{"level":30,"time":"2026-01-31T19:42:42.848Z","msg":"removeKnownAttachments: About to iterate through 8 messages"}
+{"level":30,"time":"2026-01-31T19:42:42.848Z","msg":"removeKnownAttachments: Done processing 8 messages"}
+{"level":30,"time":"2026-01-31T19:42:42.848Z","msg":"removeKnownAttachments: About to iterate through 5 conversations"}
+{"level":30,"time":"2026-01-31T19:42:42.849Z","msg":"removeKnownAttachments: Done processing 5 conversations"}
+{"level":30,"time":"2026-01-31T19:42:42.849Z","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2026-01-31T19:42:49.408Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T19:42:49.409Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2026-01-31T19:42:49.418Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2026-01-31T19:42:49.418Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T19:42:49.419Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2026-01-31T20:02:18.016Z","msg":"app ready"}
+{"level":30,"time":"2026-01-31T20:02:18.016Z","msg":"starting session-desktop version 1.17.7"}
+{"level":30,"time":"2026-01-31T20:02:18.016Z","msg":"Libsession Commit Hash: libsession-util v1.5.8-nogit"}
+{"level":30,"time":"2026-01-31T20:02:18.016Z","msg":"Libsession NodeJS Version/Hash: 0.6.7/unknown"}
+{"level":30,"time":"2026-01-31T20:02:18.017Z","msg":"Setup Complete with crowdinLocale: en"}
+{"level":30,"time":"2026-01-31T20:02:18.017Z","msg":"appLocale is en-US"}
+{"level":30,"time":"2026-01-31T20:02:18.017Z","msg":"crowdin locale is en"}
+{"level":30,"time":"2026-01-31T20:02:18.017Z","msg":"showing main window"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":"updateSchema:"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":" Current user_version: 11"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":" Most recent db schema: 11"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":" SQLite version: 3.46.1"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":" SQLCipher version: 4.6.1 community"}
+{"level":30,"time":"2026-01-31T20:02:18.037Z","msg":" (deprecated) schema_version: 240"}
+{"level":30,"time":"2026-01-31T20:02:18.038Z","msg":"updateSessionSchema: Current loki schema version: 52; Most recent schema version: 52;"}
+{"level":30,"time":"2026-01-31T20:02:18.045Z","msg":"attachment_downloads count 0"}
+{"level":30,"time":"2026-01-31T20:02:18.045Z","msg":"conversations count 5"}
+{"level":30,"time":"2026-01-31T20:02:18.045Z","msg":"encryptionKeyPairsForClosedGroupV2 count 0"}
+{"level":30,"time":"2026-01-31T20:02:18.045Z","msg":"guardNodes count 2"}
+{"level":30,"time":"2026-01-31T20:02:18.045Z","msg":"identityKeys count 0"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"items count 37"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"lastHashes count 50"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"loki_schema count 52"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages count 8"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts count 35"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts_config count 1"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts_content count 35"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts_data count 3"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts_docsize count 35"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"messages_fts_idx count 1"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"nodesForPubkey count 3"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"openGroupRoomsV2 count 0"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"seenMessages count 32"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"sqlite_sequence count 2"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"sqlite_stat1 count 32"}
+{"level":30,"time":"2026-01-31T20:02:18.046Z","msg":"sqlite_stat4 count 0"}
+{"level":30,"time":"2026-01-31T20:02:18.047Z","msg":"Ensure attachments directory exists"}
+{"level":30,"time":"2026-01-31T20:02:18.054Z","msg":"Initializing BrowserWindow config: {\"show\":true,\"minWidth\":880,\"minHeight\":600,\"backgroundColor\":\"#1B1B1B\",\"webPreferences\":{\"nodeIntegration\":true,\"enableRemoteModule\":true,\"nodeIntegrationInWorker\":true,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"[REDACTED]/images/session/session_icon.png\",\"maximized\":true,\"autoHideMenuBar\":true,\"width\":2556,\"height\":1396,\"x\":0,\"y\":0}"}
+{"level":30,"time":"2026-01-31T20:02:18.099Z","msg":"spellcheck: userLocales: en-US,en,en-US"}
+{"level":30,"time":"2026-01-31T20:02:18.099Z","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2026-01-31T20:02:18.099Z","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2026-01-31T20:02:18.099Z","msg":"spellcheck: setting languages to:  [\"en-US\",\"en\",\"en-US\"]"}
+{"level":30,"time":"2026-01-31T20:02:19.146Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1260,\"height\":1380,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T20:02:19.146Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:19.146Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:19.934Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1385,\"height\":723,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T20:02:19.934Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:19.934Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:20.223Z","msg":"removeKnownAttachments: About to iterate through 8 messages"}
+{"level":30,"time":"2026-01-31T20:02:20.224Z","msg":"removeKnownAttachments: Done processing 8 messages"}
+{"level":30,"time":"2026-01-31T20:02:20.224Z","msg":"removeKnownAttachments: About to iterate through 5 conversations"}
+{"level":30,"time":"2026-01-31T20:02:20.224Z","msg":"removeKnownAttachments: Done processing 5 conversations"}
+{"level":30,"time":"2026-01-31T20:02:20.225Z","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2026-01-31T20:02:21.035Z","msg":"Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":true,\"width\":1236,\"height\":941,\"x\":0,\"y\":0,\"fullscreen\":false}"}
+{"level":30,"time":"2026-01-31T20:02:21.035Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:21.035Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-01-31T20:02:26.438Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T20:02:26.439Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2026-01-31T20:02:26.445Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2026-01-31T20:02:26.446Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-01-31T20:02:26.446Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}

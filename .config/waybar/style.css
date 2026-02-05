@@ -3,7 +3,7 @@
 * { 
   border: none;
   font-family: "JetBrainsMono Nerd Font";
-  font-size: 14pt;
+  font-size: 12.5pt;
   min-height: 0;
   transition: none;
 }
@@ -34,6 +34,12 @@ tooltip {
   border-radius: 0;
   /* border-bottom: 2pt solid @green */
 }
+
+#custom-weather {
+  color: @mauve;
+  padding-right: 5pt;
+}
+
 
 /* Center Modules */
 
