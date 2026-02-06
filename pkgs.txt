@@ -53,8 +53,6 @@ kvantum-qt5
 libpulse
 libreoffice-fresh-ru
 librewolf
-libva-intel-driver
-libvirt
 linux
 linux-cachyos
 linux-firmware
@@ -65,7 +63,6 @@ mpd
 mpv
 ncdu
 neovim
-networkmanager
 noto-fonts-cjk
 noto-fonts-emoji
 npm
@@ -83,10 +80,8 @@ proton-vpn-gtk-app
 python
 python-aiogram
 python-pyquery
-python-pywal
 python-twisted
 qbittorrent
-qemu-full
 qt5-wayland
 qt5ct
 qt6-wayland
@@ -105,12 +100,10 @@ thunar-archive-plugin
 thunar-volman
 tmux
 tree-sitter-cli
-ttf-font-awesome-4
 ttf-jetbrains-mono-nerd
 tumbler
 udiskie
 unzip
-virt-manager
 waybar
 waydroid
 wget

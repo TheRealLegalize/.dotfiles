@@ -23,7 +23,7 @@ eval "$(zoxide init zsh)"
 
 # --- ALIASES ---
 alias n="nvim"
-alias sn="doasedit"
+alias sn="sudoedit"
 alias zrc="nvim ~/.zshrc"
 alias zr="source ~/.zshrc"
 alias i="paru -S"

@@ -8,7 +8,7 @@ return {
       remove_default_keybinds = true,
       remove_default_inverses = false,
       autoselect_longest_match = false,
-      vim.keymap.set({ 'n', 'v' }, '<leader>tt', require('nvim-toggler').toggle)
+      vim.keymap.set({ 'n', 'v' }, '<leader>tg', require('nvim-toggler').toggle)
     })
   end
 }
