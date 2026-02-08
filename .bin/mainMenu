@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-choice=$(printf " Package Manager\n Settings\n Media Player\n󰋩 Randow Wallpaper\n󰨇 Process Monitor" | rofi -dmenu -p "")
+choice=$(printf " Package Manager\n Settings\n󰋩 Randow Wallpaper\n󰨇 Process Monitor" | wofi --dmenu --cache-file=/dev/null -p "")
 
 case "$choice" in
     " Package Manager")
@@ -8,9 +8,6 @@ case "$choice" in
         ;;
     " Settings")
         sh "$HOME"/.bin/settingsMenu 
-        ;;
-    " Media Player")
-        sh "$HOME"/.bin/mpdMenu
         ;;
     "󰋩 Randow Wallpaper")
        sh "$HOME"/.bin/randWpp

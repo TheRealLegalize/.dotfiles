@@ -1,0 +1,10 @@
+width=640
+height=420
+allow_images=true
+print_command=true
+insensitive=true
+location=center
+display_generic=false
+
+key_expand=Tab
+key_contract=Escape

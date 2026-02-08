@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-choice=$(printf " Back\n󰏕 Install\n󰏕 AUR Install\n󰏔 Uninstall\n󰏓 Purge\n󰚰 Update" | rofi -dmenu -p "")
+choice=$(printf " Back\n󰏕 Install\n󰏕 AUR Install\n󰏔 Uninstall\n󰏓 Purge\n󰚰 Update" | wofi --dmenu --cache-file=/dev/null -p "")
 
 case "$choice" in
     " Back")

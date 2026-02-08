@@ -1,4 +1,4 @@
 #!/bin/bash
 URL="wttr.in/Sukhum?format=%c+%t+%C&lang=ru"
 # Скачиваем и сохраняем
-curl -s --connect-timeout 5 "$URL" | xargs > /tmp/weather.txt
+curl -s --connect-timeout 5 "$URL" | xargs > /tmp/weather.txt && pkill -12 waybar

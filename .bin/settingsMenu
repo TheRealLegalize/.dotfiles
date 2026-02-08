@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-choice=$(printf " Back\n Hyprland\n󱔓 Waybar" | rofi -dmenu -p "")
+choice=$(printf " Back\n Hyprland\n󱔓 Waybar" | wofi --dmenu --cache-file=/dev/null -p "")
 
 case "$choice" in
     " Back")
